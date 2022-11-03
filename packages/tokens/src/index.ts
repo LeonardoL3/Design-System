@@ -5,6 +5,3 @@ export * from './fonts'
 export * from './line-heights'
 export * from './radii'
 export * from './space'
-
-
-

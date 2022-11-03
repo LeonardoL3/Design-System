@@ -1,0 +1,3 @@
+{
+  "extends": "@vortex-ui/eslint-config"
+}
