@@ -1,3 +1,8 @@
 {
-  "extends": "@vortex-ui/eslint-config"
+  "extends": "@vortex-ui/eslint-config",
+  "rules": {
+    "prettier/prettier": ["error",{
+      "endOfLine": "auto"}
+    ]
+  }
 }
