@@ -1,3 +1,5 @@
+"use strict";
+
 // ../tokens/dist/index.mjs
 var fontSizes = {
   xxs: "0.625rem",

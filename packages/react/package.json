@@ -14,6 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "@vortex-ui/tokens": "*",
+    "@vortex-ui/core-ts-config": "*",
     "tsup": "^6.3.0",
     "typescript": "^4.8.4"
   }
