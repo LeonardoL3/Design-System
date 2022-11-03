@@ -1,2 +1,5 @@
-# Design-System
-A Design System for my personal applications.
+TOKENS PARA O FUTURO:
+
+- Opacidade
+- box-shadow
+- animations
