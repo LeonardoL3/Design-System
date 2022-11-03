@@ -1,0 +1,4 @@
+{
+  "extends": "@vortex-ui/core-ts-config/react.json",
+  "include": ["src"]
+}

@@ -28,6 +28,7 @@
     "@vortex-ui/react": "*",
     "@vortex-ui/tokens": "*",
     "@vortex-ui/eslint-config": "*",
+    "@vortex-ui/core-ts-config": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
