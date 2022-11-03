@@ -1,13 +1,10 @@
 import { styled } from "./styles";
 
-const Button = styled("button", {
-  color: "$gray500",
+export const Button = styled("button", {
+  color: "$white",
   fontFamily: "$default",
   backgroundColor: "$ignite700",
-  height: "$12",
-  width: "$12",
+  border: 0,
+  padding: "$2",
+  borderRadius: "$md",
 });
-
-export function App() {
-  return <Button> eeeeita </Button>;
-}
