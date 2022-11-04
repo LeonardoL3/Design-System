@@ -3,13 +3,14 @@ import { ColorPalette, ColorItem } from "@storybook/addon-docs";
 
 export function ColorsGrid() {
   const getAllGreenColors = Object.entries(colors).filter(([key, value]) =>
-    key.includes("gray")
+    key.includes("green")
   );
   const getAllGrayColors = Object.entries(colors).filter(([key, value]) =>
-    key.includes("ignite")
+    key.includes("gray")
   );
 
   return (
+    // @ts-ignore
     <ColorPalette>
       <ColorItem
         title="plain white"
