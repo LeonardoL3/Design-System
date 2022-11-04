@@ -13,10 +13,10 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
-        readonly ignite300: "#00B37E";
-        readonly ignite500: "#00875F";
-        readonly ignite700: "#015F43";
-        readonly ignite900: "#00291D";
+        readonly green300: "#00B37E";
+        readonly green500: "#00875F";
+        readonly green700: "#015F43";
+        readonly green900: "#00291D";
     };
     fonts: {
         readonly default: "Roboto, sans-serif";
