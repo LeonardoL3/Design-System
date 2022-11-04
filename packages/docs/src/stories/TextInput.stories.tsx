@@ -4,6 +4,11 @@ import { Box, Text, TextInput, TextInputProps } from "@vortex-ui/react";
 export default {
   title: "Form/Text Input",
   component: TextInput,
+  argTypes: {
+    onChange: {
+      action: "change",
+    },
+  },
   decorators: [
     (Story) => {
       return (

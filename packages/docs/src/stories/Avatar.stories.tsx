@@ -8,6 +8,13 @@ export default {
     src: "https://github.com/LeonardoL3.png",
     alt: "Leonardo Lazzaretti",
   },
+  argTypes: {
+    src: {
+      control: {
+        type: "text",
+      },
+    },
+  },
 } as Meta<AvatarProps>;
 
 export const Primary: StoryObj<AvatarProps> = {};

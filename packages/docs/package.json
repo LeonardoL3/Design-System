@@ -24,6 +24,7 @@
     "vite": "^3.2.2"
   },
   "dependencies": {
+    "@storybook/addon-a11y": "^6.5.13",
     "@vortex-ui/core-ts-config": "*",
     "@vortex-ui/eslint-config": "*",
     "@vortex-ui/react": "*",

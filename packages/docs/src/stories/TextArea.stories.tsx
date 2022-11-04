@@ -4,6 +4,11 @@ import { Box, Text, TextArea, TextAreaProps } from "@vortex-ui/react";
 export default {
   title: "Form/Text Area",
   component: TextArea,
+  argTypes: {
+    onChange: {
+      action: "change",
+    },
+  },
   decorators: [
     (Story) => {
       return (

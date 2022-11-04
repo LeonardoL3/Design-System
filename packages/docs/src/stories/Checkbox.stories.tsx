@@ -4,6 +4,11 @@ import { Box, Text, Checkbox, CheckboxProps } from "@vortex-ui/react";
 export default {
   title: "Form/Checkbox",
   component: Checkbox,
+  argTypes: {
+    onClick: {
+      action: "click",
+    },
+  },
   decorators: [
     (Story) => {
       return (
