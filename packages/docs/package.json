@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
     "build": "build-storybook --output-dir dist"
   },
@@ -25,10 +24,11 @@
     "vite": "^3.2.2"
   },
   "dependencies": {
+    "@vortex-ui/core-ts-config": "*",
+    "@vortex-ui/eslint-config": "*",
     "@vortex-ui/react": "*",
     "@vortex-ui/tokens": "*",
-    "@vortex-ui/eslint-config": "*",
-    "@vortex-ui/core-ts-config": "*",
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
