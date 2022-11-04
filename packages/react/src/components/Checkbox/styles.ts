@@ -55,3 +55,5 @@ export const CheckboxIndicator = styled(Checkbox.Indicator, {
     animation: `${slideOut} 200ms ease-out`,
   },
 });
+
+CheckboxContainer.displayName = "Checkbox";
