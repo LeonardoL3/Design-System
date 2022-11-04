@@ -1,5 +1,5 @@
 {
-  "name": "@vortex-ui/tokens",
+  "name": "@ascendent_leonardo/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vortex-ui/core-ts-config": "*",
-    "@vortex-ui/eslint-config": "*",
+    "@ascendent_leonardo/core-ts-config": "*",
+    "@ascendent_leonardo/eslint-config": "*",
     "tsup": "^6.3.0",
     "typescript": "^4.8.4"
   }

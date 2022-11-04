@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from "@storybook/react";
-import { Box, MultiStep, MultiStepProps } from "@vortex-ui/react";
+import { Box, MultiStep, MultiStepProps } from "@ascendent_leonardo/react";
 
 export default {
   title: "Form/Multi Step",

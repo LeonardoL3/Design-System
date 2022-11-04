@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from "@storybook/react";
-import { Heading, HeadingProps } from "@vortex-ui/react";
+import { Heading, HeadingProps } from "@ascendent_leonardo/react";
 
 export default {
   title: "Typography/Heading",

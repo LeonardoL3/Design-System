@@ -1,5 +1,5 @@
 {
-  "extends": "@vortex-ui/eslint-config",
+  "extends": "@ascendent_leonardo/eslint-config",
   "rules": {
     "prettier/prettier": ["error",{
       "endOfLine": "auto"}

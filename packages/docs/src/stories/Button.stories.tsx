@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from "@storybook/react";
-import { Button, ButtonProps } from "@vortex-ui/react";
+import { Button, ButtonProps } from "@ascendent_leonardo/react";
 import { ArrowRight } from "phosphor-react";
 
 export default {

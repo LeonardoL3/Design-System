@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from "@storybook/react";
-import { Box, Text, Checkbox, CheckboxProps } from "@vortex-ui/react";
+import { Box, Text, Checkbox, CheckboxProps } from "@ascendent_leonardo/react";
 
 export default {
   title: "Form/Checkbox",

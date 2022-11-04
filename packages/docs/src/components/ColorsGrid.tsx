@@ -1,4 +1,4 @@
-import { colors } from "@vortex-ui/tokens";
+import { colors } from "@ascendent_leonardo/tokens";
 import { ColorPalette, ColorItem } from "@storybook/addon-docs";
 
 export function ColorsGrid() {

@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from "@storybook/react";
-import { Box, BoxProps, Text } from "@vortex-ui/react";
+import { Box, BoxProps, Text } from "@ascendent_leonardo/react";
 
 export default {
   title: "Surfaces/Box",

@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from "@storybook/react";
-import { Avatar, AvatarProps } from "@vortex-ui/react";
+import { Avatar, AvatarProps } from "@ascendent_leonardo/react";
 
 export default {
   title: "Data display/Avatar",

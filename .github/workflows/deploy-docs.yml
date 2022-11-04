@@ -20,6 +20,9 @@ jobs:
       - run: npm ci --legacy-peer-deps
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: iMvh6rC3OXPcPuloTD67eMlc
+          TURBO_TEAM: iMvh6rC3OXPcPuloTDleonardol3
 
       - name: Deploy storybook
         working-directory: ./packages/docs

@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from "@vortex-ui/tokens";
+} from "@ascendent_leonardo/tokens";
 
 export const {
   styled,

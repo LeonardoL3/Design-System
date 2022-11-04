@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from "@storybook/react";
-import { Text, TextProps } from "@vortex-ui/react";
+import { Text, TextProps } from "@ascendent_leonardo/react";
 
 export default {
   title: "Typography/Text",
