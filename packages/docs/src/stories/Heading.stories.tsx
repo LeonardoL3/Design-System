@@ -20,7 +20,7 @@ export const CustomTag: StoryObj<HeadingProps> = {
     docs: {
       description: {
         story:
-          "By default heading is a `h1`, but its possible to change that with the `as` prop.",
+          "By default heading is a `h1`, but it's possible to change that with the `as` prop.",
       },
     },
   },
