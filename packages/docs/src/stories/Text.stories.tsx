@@ -13,7 +13,7 @@ export const Primary: StoryObj<TextProps> = {};
 
 export const CustomTag: StoryObj<TextProps> = {
   args: {
-    children: "text as html heading",
-    as: "h1",
+    children: "text as strong element",
+    as: "strong",
   },
 };
