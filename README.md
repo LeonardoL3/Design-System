@@ -1,5 +1,4 @@
-TOKENS PARA O FUTURO:
+VORTEX-UI
 
-- Opacidade
-- box-shadow
-- animations
+personal design system for my projects.
+
