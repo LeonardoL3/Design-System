@@ -14,6 +14,7 @@ var colors = {
   gray800: "#202024",
   gray900: "#121214",
   green300: "#00B37E",
+  green400: "#00B37E",
   green500: "#00875F",
   green700: "#015F43",
   green900: "#00291D"
@@ -112,6 +113,15 @@ var Box = styled("div", {
   border: "1px solid $gray600"
 });
 Box.displayName = "Box";
+
+// src/components/BoxTwo.tsx
+var BoxTwo = styled("div", {
+  padding: "$4",
+  borderRadius: "$md",
+  backgroundColor: "$gray800",
+  border: "1px solid $gray600"
+});
+BoxTwo.displayName = "BoxTwo";
 
 // src/components/Text.tsx
 var Text = styled("p", {
@@ -506,11 +516,20 @@ function MultiStep({ size, currentStep = 1 }) {
 export {
   Avatar2 as Avatar,
   Box,
+  BoxTwo,
   Button,
   Checkbox2 as Checkbox,
   Heading,
   MultiStep,
   Text,
   TextArea,
-  TextInput
+  TextInput,
+  config,
+  createTheme,
+  css,
+  getCssText,
+  globalCss,
+  keyframes,
+  styled,
+  theme
 };

@@ -28,13 +28,22 @@ var src_exports = {};
 __export(src_exports, {
   Avatar: () => Avatar2,
   Box: () => Box,
+  BoxTwo: () => BoxTwo,
   Button: () => Button,
   Checkbox: () => Checkbox2,
   Heading: () => Heading,
   MultiStep: () => MultiStep,
   Text: () => Text,
   TextArea: () => TextArea,
-  TextInput: () => TextInput
+  TextInput: () => TextInput,
+  config: () => config,
+  createTheme: () => createTheme,
+  css: () => css,
+  getCssText: () => getCssText,
+  globalCss: () => globalCss,
+  keyframes: () => keyframes,
+  styled: () => styled,
+  theme: () => theme
 });
 module.exports = __toCommonJS(src_exports);
 
@@ -54,6 +63,7 @@ var colors = {
   gray800: "#202024",
   gray900: "#121214",
   green300: "#00B37E",
+  green400: "#00B37E",
   green500: "#00875F",
   green700: "#015F43",
   green900: "#00291D"
@@ -152,6 +162,15 @@ var Box = styled("div", {
   border: "1px solid $gray600"
 });
 Box.displayName = "Box";
+
+// src/components/BoxTwo.tsx
+var BoxTwo = styled("div", {
+  padding: "$4",
+  borderRadius: "$md",
+  backgroundColor: "$gray800",
+  border: "1px solid $gray600"
+});
+BoxTwo.displayName = "BoxTwo";
 
 // src/components/Text.tsx
 var Text = styled("p", {
@@ -547,11 +566,20 @@ function MultiStep({ size, currentStep = 1 }) {
 0 && (module.exports = {
   Avatar,
   Box,
+  BoxTwo,
   Button,
   Checkbox,
   Heading,
   MultiStep,
   Text,
   TextArea,
-  TextInput
+  TextInput,
+  config,
+  createTheme,
+  css,
+  getCssText,
+  globalCss,
+  keyframes,
+  styled,
+  theme
 });
