@@ -1,5 +1,11 @@
 # @ascendent_leonardo/react
 
+## 4.0.0
+
+### Major Changes
+
+- fix TextInput types
+
 ## 3.1.0
 
 ### Minor Changes

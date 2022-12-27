@@ -5,9 +5,8 @@ export interface TextInputProps extends ComponentProps<typeof Input> {
   prefix?: string;
 }
 
-export const TextInput = forwardRef<HTMLInputElement>(
-  ({ prefix, ...rest }: TextInputProps, ref) => {
-    console.log("essa ref mto loka", ref);
+export const TextInput = forwardRef<HTMLInputElement, TextInputProps>(
+  ({ prefix, ...rest }, ref) => {
     return (
       <TextInputContainer>
         {!!prefix && <Prefix>{prefix}</Prefix>}

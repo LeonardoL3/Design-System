@@ -354,7 +354,6 @@ var Input = styled("input", {
 import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
 var TextInput = forwardRef(
   ({ prefix, ...rest }, ref) => {
-    console.log("essa ref mto loka", ref);
     return /* @__PURE__ */ jsxs2(TextInputContainer, {
       children: [
         !!prefix && /* @__PURE__ */ jsx2(Prefix, {
