@@ -1,5 +1,11 @@
 # @ascendent_leonardo/react
 
+## 3.1.0
+
+### Minor Changes
+
+- bedbc72: add forwardRef to TextInput
+
 ## 3.0.0
 
 ### Major Changes
