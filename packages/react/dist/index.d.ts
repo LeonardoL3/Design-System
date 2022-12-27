@@ -1487,10 +1487,7 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
 interface TextInputProps extends ComponentProps<typeof Input> {
     prefix?: string;
 }
-declare function TextInput({ prefix, ...rest }: TextInputProps): JSX.Element;
-declare namespace TextInput {
-    var displayName: string;
-}
+declare const TextInput: react.ForwardRefExoticComponent<react.RefAttributes<HTMLInputElement>>;
 
 declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"textarea", {}, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {

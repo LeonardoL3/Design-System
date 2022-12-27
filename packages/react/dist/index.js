@@ -354,6 +354,9 @@ var Button = styled("button", {
 });
 Button.displayName = "Button";
 
+// src/components/TextInput/index.tsx
+var import_react2 = require("react");
+
 // src/components/TextInput/styles.ts
 var TextInputContainer = styled("div", {
   backgroundColor: "$gray900",
@@ -398,18 +401,22 @@ var Input = styled("input", {
 
 // src/components/TextInput/index.tsx
 var import_jsx_runtime2 = require("react/jsx-runtime");
-function TextInput({ prefix, ...rest }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(TextInputContainer, {
-    children: [
-      !!prefix && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Prefix, {
-        children: prefix
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Input, {
-        ...rest
-      })
-    ]
-  });
-}
+var TextInput = (0, import_react2.forwardRef)(
+  ({ prefix, ...rest }, ref) => {
+    console.log("essa ref mto loka", ref);
+    return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(TextInputContainer, {
+      children: [
+        !!prefix && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Prefix, {
+          children: prefix
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Input, {
+          ref,
+          ...rest
+        })
+      ]
+    });
+  }
+);
 TextInput.displayName = "TextInput";
 
 // src/components/TextArea.tsx
